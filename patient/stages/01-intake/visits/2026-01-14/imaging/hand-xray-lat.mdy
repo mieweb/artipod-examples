@@ -1,0 +1,18 @@
+---
+artifact:
+  id: xray-lat
+  kind: imaging
+  modality: XR
+  bodySite: "hand, left"
+  view: lateral
+  performed: "2026-01-14T15:38"
+  file: hand-xray-lat.jpg
+  impression: "no acute fracture; soft-tissue swelling dorsum"
+  note: synthetic placeholder image — see /DISCLAIMER.md
+---
+
+# X-ray, left hand lateral — 2026-01-14
+
+Sidecar for [hand-xray-lat.jpg](hand-xray-lat.jpg):
+[lateral view, performed 15:38](#xray-lat). Impression (Okafor): no acute
+fracture; soft-tissue swelling over the dorsum.

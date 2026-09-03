@@ -1,0 +1,19 @@
+---
+privileges:
+  id: privileges
+  facility: Harborview Occupational Health
+  scope: { id: scope, value: "occupational-medicine evaluation and treatment; minor procedures (laceration repair, FB removal); work-status determinations" }
+  granted: { id: granted, value: 2025-06-10 }
+  expires: { id: expires, value: 2027-06-30 }
+  committee: { id: committee, value: "Credentials Committee, minutes 2025-06-09, unanimous" }
+---
+
+# Privileges — Harborview Occupational Health
+
+[Granted 2025-06-10](#granted) by the
+[credentials committee](#committee), [expiring 2027-06-30](#expires):
+[occupational-medicine evaluation and treatment, minor procedures, work-status
+determinations](#scope).
+
+*Every signature Dr. Okafor puts on a chart note (see `example/patient`) is
+inside this scope from this date — that's what this pod proves.*

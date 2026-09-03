@@ -1,0 +1,15 @@
+---
+psv:
+  id: psv
+  target: "DO degree + residency"
+  source: { id: source, value: "Registrar, College of Osteopathic Medicine (sealed transcript); ACGME program office" }
+  checkedBy: { id: checked-by, name: L. Grant, role: credentialing coordinator }
+  on: { id: on, value: 2025-05-19 }
+  result: { id: result, value: "degree conferred 2016; occupational-medicine residency completed 2019" }
+---
+
+# Primary-source verification — education & training
+
+[Verified 2025-05-19](#on): [degree conferred 2016, residency completed
+2019](#result), per [registrar and program office](#source). Diploma scan on
+file: [../documents/diploma.jpg](../documents/diploma.jpg).

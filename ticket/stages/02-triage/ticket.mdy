@@ -1,0 +1,21 @@
+---
+ticket:
+  id: TKT-20260302-114
+  status: { id: status, value: in-triage }
+  severity: { id: severity, value: S3 }
+  assignee: { id: assignee, value: "D. Chen (infra)" }
+  reporter: { id: reporter, name: P. Whitfield, dept: Fabrication office }
+  opened: { id: opened, value: "2026-03-02T08:55" }
+  summary: { id: summary, value: "print jobs to FAB-PRN-02 stall for minutes, some duplicate" }
+  hypothesis: { id: hypothesis, value: "print-svc spooler leaks memory since Friday's 2.14 patch; queue drains only after GC pauses" }
+---
+
+# TKT-20260302-114
+
+[In triage](#status), assigned to [D. Chen](#assignee). Working
+[hypothesis](#hypothesis) from the diagnostics
+([diagnostics/env-report.md](diagnostics/env-report.md),
+[app.log](diagnostics/app.log), [screenshot.png](diagnostics/screenshot.png),
+full [support-bundle.tar.gz](diagnostics/support-bundle.tar.gz)): the spooler
+has leaked memory since Friday's 2.14 patch and the queue only drains between
+GC pauses — which also explains the duplicates (client retries).

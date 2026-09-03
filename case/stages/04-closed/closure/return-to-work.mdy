@@ -1,0 +1,18 @@
+---
+clearance:
+  kind: return-to-work
+  case: ACME-2026-0007
+  visitDate: { id: visit-date, value: 2026-02-04 }
+  provider: { id: provider, name: "Sam Okafor, DO", clinic: Harborview Occupational Health }
+  workStatus: { id: work-status, value: full-duty, from: 2026-02-05 }
+  restrictions: { id: restrictions, value: none }
+  received: { id: received, value: "2026-02-04T11:30", via: portal }
+---
+
+# Return-to-work clearance
+
+[Dr. Sam Okafor](#provider) clears Jordan Rivera for
+[full duty effective 2026-02-05](#work-status) with
+[no restrictions](#restrictions), per the
+[2026-02-04 clearance visit](#visit-date). Received
+[2026-02-04 11:30 via portal](#received).

@@ -1,0 +1,19 @@
+---
+lostTime:
+  id: lost-time
+  employee: E-4471
+  caseRef: "example/case (ACME-2026-0007)"     # reference, never a copy
+  absenceStart: { id: start, value: 2026-01-12 }
+  category: { id: category, value: "occupational injury — see employer case" }
+  payCode: { id: pay-code, value: OCC-INJ }
+  status: { id: status, value: open }
+---
+
+# Lost-time accounting — January 2026
+
+Absence [beginning 2026-01-12](#start), pay code [OCC-INJ](#pay-code),
+category [occupational injury](#category), tracked against
+[the employer's absence case](#lost-time). Status: [open](#status).
+
+*This file holds hours and pay codes only. No diagnosis, no wound description,
+no clinical detail — that is the clinic's record, which payroll cannot see.*

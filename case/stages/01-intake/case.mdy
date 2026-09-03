@@ -1,0 +1,18 @@
+---
+case:
+  id: ACME-2026-0007
+  status: { id: status, value: open }
+  employee: { id: employee, name: Jordan Rivera, badge: E-4471, dept: Fabrication — Welding }
+  incident: { id: incident, date: 2026-01-12, time: "09:10", location: Bay 3, shear table }
+  workStatus: { id: work-status, value: off-work, since: 2026-01-12 }
+  clinic: { id: clinic, name: Harborview Occupational Health, ref: "example/patient" }
+  nextReview: { id: next-review, value: 2026-01-14 }
+---
+
+# Absence case ACME-2026-0007
+
+Status: [open](#status). Employee [Jordan Rivera, E-4471](#employee) sustained
+a hand laceration at [Bay 3 on 2026-01-12](#incident) and is currently
+[off work](#work-status). Treated at [Harborview Occupational Health](#clinic);
+the clinical record is the clinic's chart (`example/patient`), referenced here
+by name only. Next review: [after the first visit](#next-review).

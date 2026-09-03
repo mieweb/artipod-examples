@@ -1,0 +1,14 @@
+---
+resourceType: Procedure
+id: suture-removal
+code: { text: "Removal of sutures (6), left hand dorsum" }
+performedDateTime: "2026-01-21T14:20"
+performer: { display: "Sam Okafor, DO" }
+outcome: { id: outcome, text: "intact closure; steri-strips applied" }
+---
+
+# Procedure — suture removal, 2026-01-21
+
+[Six sutures removed](#suture-removal) at 14:20;
+[closure intact, steri-strips applied](#outcome). Patient advised on scar care
+and instructed to keep strips dry for 48 hours.

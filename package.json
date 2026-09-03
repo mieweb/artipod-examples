@@ -1,0 +1,11 @@
+{
+  "name": "artipod-examples",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Demo artipods for ghcr.io/mieweb/artipod-examples — built with the artipod CLI itself",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "jpeg-js": "0.4.4"
+  }
+}

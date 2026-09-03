@@ -1,0 +1,29 @@
+---
+report:
+  form: first-report-of-injury            # OSHA-301-shaped, fictional
+  case: ACME-2026-0007
+  employee: { id: employee, name: Jordan Rivera, badge: E-4471, job: Welder II }
+  incident:
+    id: incident
+    date: 2026-01-12
+    time: "09:10"
+    location: { id: location, value: "Bay 3, shear table" }
+    nature: { id: nature, value: "laceration, left hand" }
+    object: { id: object, value: "sheet-metal edge" }
+  firstAid: { id: first-aid, value: "pressure dressing on site" }
+  reportedBy: { id: reported-by, name: M. Delgado, role: Fabrication Supervisor }
+  scan: intake/first-report-scan.pdf
+---
+
+# First report of injury
+
+[Jordan Rivera (Welder II)](#employee) was handling stock at the
+[Bay 3 shear table](#location) when a [sheet-metal edge](#object) caused a
+[laceration to the left hand](#nature) at [09:10 on 2026-01-12](#incident).
+[Pressure dressing applied on site](#first-aid); employee transported to
+Harborview Occupational Health. Reported by [M. Delgado](#reported-by).
+The signed paper form is attached as a scan
+([first-report-scan.pdf](first-report-scan.pdf)).
+
+*No diagnosis is recorded here — clinical findings belong to the clinic's
+chart (`example/patient`).*

@@ -1,0 +1,13 @@
+{
+  "$comment": "ILLUSTRATIVE tool schema — the capability dialect is owned by ozwellai-api; this pod tracks it. The capability named here must be granted by the USER's environment (needs: pod.read).",
+  "name": "read_pod",
+  "capability": "pod.read",
+  "description": "Read a file from the pod the user opened for this agent.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "path": { "type": "string", "description": "Pod-absolute path, e.g. /case.mdy" }
+    },
+    "required": ["path"]
+  }
+}

@@ -1,0 +1,17 @@
+---
+position:
+  id: pos
+  title: Welder II
+  dept: Fabrication
+  grade: F3
+  from: 2025-07-01
+  supervisor: M. Delgado
+  flsa: non-exempt
+  predecessor: positions/2024-03-welder-i.mdy
+---
+
+# Position — Welder II (from 2025-07-01)
+
+Promoted to [Welder II, grade F3](#pos) on structural certification
+(AWS D1.1, passed 2025-06-12). Wage change recorded in
+[../wages/wage-history.mdy](../wages/wage-history.mdy).

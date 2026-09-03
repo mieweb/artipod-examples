@@ -1,0 +1,17 @@
+---
+resourceType: Bundle
+type: collection
+entry:
+  - id: bp
+    resource: { resourceType: Observation, code: { text: "Blood pressure" }, valueString: "124/78 mmHg", effectiveDateTime: "2026-01-14T15:15" }
+  - id: hr
+    resource: { resourceType: Observation, code: { text: "Heart rate" }, valueQuantity: { value: 76, unit: "/min" }, effectiveDateTime: "2026-01-14T15:15" }
+  - id: temp
+    resource: { resourceType: Observation, code: { text: "Body temperature" }, valueQuantity: { value: 36.9, unit: Cel }, effectiveDateTime: "2026-01-14T15:15" }
+  - id: pain
+    resource: { resourceType: Observation, code: { text: "Pain score" }, valueInteger: 3, effectiveDateTime: "2026-01-14T15:15" }
+---
+
+# Vitals — 2026-01-14 15:15
+
+- BP [124/78](#bp) · HR [76](#hr) · Temp [36.9 °C](#temp) · Pain [3/10](#pain)

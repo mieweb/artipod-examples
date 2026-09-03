@@ -1,0 +1,20 @@
+---
+resolution:
+  id: resolution
+  ticket: TKT-20260302-114
+  closed: { id: closed, value: "2026-03-04T10:00" }
+  rootCause: { id: root-cause, value: "print-svc 2.14.0 shipped a job-metadata cache without eviction; heap filled over the weekend, GC pauses stalled the queue, and 90s client timeouts caused retry-duplicates" }
+  fix: { id: fix, value: "2.14.1 (upstream eviction hotfix) + explicit cache.maxEntries bound — CHG-2026-0233" }
+  verified: { id: verified, value: "24h clean: RSS flat, queue at baseline, zero duplicates; reporter confirmed" }
+  followUp: { id: follow-up, value: "add RSS growth-rate alert for fab-app-1 (done, MON-1187); vendor notified that default config ships uncapped" }
+---
+
+# Resolution — TKT-20260302-114
+
+[Root cause](#root-cause) → [fix](#fix) → [verified over 24h with reporter
+confirmation](#verified). Follow-ups: [monitoring alert added, vendor
+notified](#follow-up).
+
+*Tutorial check: triage's `diagnostics/app.log` contained everything needed to
+call this — the RSS growth line, the GC pauses, and the duplicate accept after
+a client timeout.*

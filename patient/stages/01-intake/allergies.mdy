@@ -1,0 +1,15 @@
+---
+resourceType: Bundle
+type: collection
+entry:
+  - id: nka
+    resource:
+      resourceType: AllergyIntolerance
+      code: { text: "No known allergies" }
+      verificationStatus: confirmed
+      recordedDate: 2026-01-14
+---
+
+# Allergies
+
+[No known allergies](#nka) (reviewed at intake, 2026-01-14).

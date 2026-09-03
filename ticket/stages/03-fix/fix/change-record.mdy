@@ -1,0 +1,19 @@
+---
+change:
+  id: change
+  ticket: TKT-20260302-114
+  ref: CHG-2026-0233
+  applied: { id: applied, value: "2026-03-03T09:20" }
+  by: { id: by, value: "D. Chen" }
+  action: { id: action, value: "print-svc 2.14.0 → 2.14.1 (upstream hotfix: metadata cache eviction, default TTL 1h) + explicit cache.maxEntries=10000" }
+  window: { id: window, value: "09:00–09:30, queue drained first — zero lost jobs" }
+  verification: { id: verification, value: "RSS flat at 1.2GB for 4h post-change; queue depth 9–13; no GC pause > 200ms" }
+---
+
+# Change record — CHG-2026-0233
+
+[Applied 2026-03-03 09:20](#applied) by [D. Chen](#by):
+[upgrade to 2.14.1 with cache eviction, plus an explicit cache bound](#action),
+in a [drained-queue window with zero lost jobs](#window). Post-change:
+[RSS flat, queue depth at baseline, no GC pauses over 200 ms](#verification).
+Rollback: [rollback-plan.md](rollback-plan.md).

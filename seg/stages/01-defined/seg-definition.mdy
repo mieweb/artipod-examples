@@ -1,0 +1,23 @@
+---
+seg:
+  id: seg
+  name: "Welders — Fabrication Bays 1–3"
+  code: SEG-WELD-01
+  established: { id: established, value: 2025-11-05 }
+  rationale: { id: rationale, value: "same task mix (GMAW/FCAW on mild + stainless), same ventilation regime (bay LEV), same materials, overlapping shifts" }
+  agents:
+    - { id: agent-mn, name: "manganese (welding fume)" }
+    - { id: agent-cr6, name: "hexavalent chromium (stainless work)" }
+    - { id: agent-fume, name: "total welding fume" }
+  authoredBy: { id: author, name: "R. Osei, CIH" }
+---
+
+# SEG definition — SEG-WELD-01
+
+[Established 2025-11-05](#established) by [R. Osei, CIH](#author). These
+workers can be treated as one exposure group because they share
+[the same task mix, ventilation regime, materials, and overlapping
+shifts](#rationale) — the exposure determinants, not the org chart. Agents of
+concern: [manganese](#agent-mn), [hexavalent chromium](#agent-cr6), and
+[total welding fume](#agent-fume). Who is in the group and when:
+[membership-rules.mdy](membership-rules.mdy).

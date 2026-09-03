@@ -1,0 +1,7 @@
+Active Internet connections (servers and established) — fab-app-1, 2026-03-02 10:56
+Proto Recv-Q Send-Q Local Address          Foreign Address        State
+tcp        0      0 0.0.0.0:9100           0.0.0.0:*              LISTEN      (print-svc)
+tcp        0  84211 10.20.3.11:9100        10.20.7.31:52114       ESTABLISHED (fab-office-1)
+tcp        0  91772 10.20.3.11:9100        10.20.7.33:49810       ESTABLISHED (fab-office-3)
+tcp        0      0 10.20.3.11:631         10.20.4.62:1029        ESTABLISHED (FAB-PRN-02)
+Note: non-zero Send-Q on both office clients = responses queued in the stalled spooler, not the network.

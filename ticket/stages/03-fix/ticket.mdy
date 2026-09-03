@@ -1,0 +1,20 @@
+---
+ticket:
+  id: TKT-20260302-114
+  status: { id: status, value: fix-applied }
+  severity: { id: severity, value: S3 }
+  assignee: { id: assignee, value: "D. Chen (infra)" }
+  reporter: { id: reporter, name: P. Whitfield, dept: Fabrication office }
+  opened: { id: opened, value: "2026-03-02T08:55" }
+  summary: { id: summary, value: "print jobs to FAB-PRN-02 stall for minutes, some duplicate" }
+  rootCause: { id: root-cause, value: "print-svc 2.14.0 job-metadata cache has no eviction — unbounded heap growth → GC pauses → client-retry duplicates" }
+  fix: { id: fix, ref: fix/change-record.mdy }
+---
+
+# TKT-20260302-114
+
+[Fix applied](#status): [root cause](#root-cause) confirmed against the heap
+snapshot (cache retains every job's metadata since deploy). Change record:
+[fix/change-record.mdy](fix/change-record.mdy); rollback plan:
+[fix/rollback-plan.md](fix/rollback-plan.md). Monitoring through 2026-03-04
+before close.

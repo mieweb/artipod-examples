@@ -1,0 +1,19 @@
+---
+artifact:
+  id: xray-pa
+  kind: imaging
+  modality: XR
+  bodySite: "hand, left"
+  view: PA
+  performed: "2026-01-14T15:35"
+  file: hand-xray-pa.jpg
+  impression: "no acute fracture; no radiopaque foreign body"
+  note: synthetic placeholder image — see /DISCLAIMER.md
+---
+
+# X-ray, left hand PA — 2026-01-14
+
+Sidecar for [hand-xray-pa.jpg](hand-xray-pa.jpg):
+[PA view, performed 15:35](#xray-pa). Impression (Okafor): no acute fracture,
+no radiopaque foreign body. *An agent can answer imaging questions from this
+sidecar without ever hydrating the multi-megabyte image — that's the demo.*

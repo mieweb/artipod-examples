@@ -1,0 +1,17 @@
+---
+ticket:
+  id: TKT-20260302-114
+  status: { id: status, value: open }
+  severity: { id: severity, value: S3 }
+  assignee: { id: assignee, value: unassigned }
+  reporter: { id: reporter, name: P. Whitfield, dept: Fabrication office }
+  opened: { id: opened, value: "2026-03-02T08:55" }
+  summary: { id: summary, value: "print jobs to FAB-PRN-02 stall for minutes, some duplicate" }
+---
+
+# TKT-20260302-114
+
+[Open](#status), [severity S3](#severity), [unassigned](#assignee). Reported
+by [P. Whitfield](#reporter) at [08:55](#opened):
+[print jobs to FAB-PRN-02 stall for minutes and some print twice](#summary).
+Log: [updates.md](updates.md).

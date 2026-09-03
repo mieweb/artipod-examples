@@ -1,0 +1,20 @@
+---
+case:
+  id: ACME-2026-0007
+  status: { id: status, value: open }
+  employee: { id: employee, name: Jordan Rivera, badge: E-4471, dept: Fabrication — Welding }
+  incident: { id: incident, date: 2026-01-12, time: "09:10", location: Bay 3, shear table }
+  workStatus: { id: work-status, value: modified-duty, since: 2026-01-22, restrictions: "no gripping tools with left hand; no vibration" }
+  accommodation: { id: accommodation, ref: accommodations/modified-duty.mdy }
+  clinic: { id: clinic, name: Harborview Occupational Health, ref: "example/patient" }
+  nextReview: { id: next-review, value: 2026-02-04 }
+---
+
+# Absence case ACME-2026-0007
+
+Status: [open](#status). Following the 2026-01-21 visit
+([visits/2026-01-21/report.mdy](visits/2026-01-21/report.mdy)),
+[Jordan Rivera](#employee) is released to
+[modified duty from 2026-01-22](#work-status) under the
+[modified-duty plan](#accommodation). Clearance review expected at the
+[2026-02-04 visit](#next-review).

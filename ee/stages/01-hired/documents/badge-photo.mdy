@@ -1,0 +1,14 @@
+---
+artifact:
+  id: badge-photo
+  kind: photo
+  subject: "employee badge photo, E-4471"
+  taken: 2024-03-04
+  file: badge-photo.jpg
+  note: synthetic placeholder image — see /DISCLAIMER.md
+---
+
+# Badge photo sidecar
+
+[Badge photo taken at hire, 2024-03-04](#badge-photo) —
+[badge-photo.jpg](badge-photo.jpg).

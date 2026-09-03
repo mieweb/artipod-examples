@@ -1,0 +1,16 @@
+---
+workStatus:
+  id: ws
+  patient: HOH-88231
+  determination: full-duty
+  effective: 2026-02-05
+  restrictions: none
+  provider: { display: "Sam Okafor, DO", npi: "1234567893" }
+  transmitted: { to: "Acme Fabrication (case ACME-2026-0007)", via: portal, at: "2026-02-04T11:30" }
+---
+
+# Work status determination — 2026-02-04
+
+[Full duty effective 2026-02-05, no restrictions](#ws). Transmitted to the
+employer's absence case. *This file is the clinical original; the employer's
+copy in `example/case` carries the administrative summary only.*

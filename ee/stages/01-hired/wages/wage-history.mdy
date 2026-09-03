@@ -1,0 +1,16 @@
+---
+wageHistory:
+  id: wages
+  employee: E-4471
+  rows:
+    - { effective: 2024-03-04, rate: 24.50, unit: USD/hr, reason: hire, position: Welder I }
+---
+
+# Wage history — E-4471
+
+| effective | rate | reason | position |
+|---|---|---|---|
+| [2024-03-04](#wages) | $24.50/hr | hire | Welder I |
+
+*Wage data lives only in this pod. The absence case and the medical chart
+reference the employee by badge — never by wage.*

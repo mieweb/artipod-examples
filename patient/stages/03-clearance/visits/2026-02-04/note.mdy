@@ -1,0 +1,18 @@
+---
+resourceType: Encounter
+id: enc-0204
+class: occupational-health
+period: { start: "2026-02-04T10:45", end: "2026-02-04T11:30" }
+provider: { id: provider, display: "Sam Okafor, DO", npi: "1234567893" }
+assessment: { id: assessment, text: "wound fully healed; grip strength 95% of contralateral; full range of motion" }
+disposition: { id: disposition, text: "released to full duty 2026-02-05, no restrictions; no further follow-up" }
+---
+
+# Encounter note — 2026-02-04 (clearance)
+
+[Dr. Okafor](#provider):
+[wound fully healed, grip 95% of contralateral, full ROM](#assessment) after
+two weeks of hand therapy. Work status:
+[full duty from 2026-02-05, no restrictions](#disposition) — see
+[work-status.mdy](work-status.mdy); clearance transmitted to the employer.
+Problem marked resolved; no further follow-up scheduled.

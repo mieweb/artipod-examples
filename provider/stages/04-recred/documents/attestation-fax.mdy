@@ -1,0 +1,17 @@
+---
+artifact:
+  id: attestation
+  kind: fax
+  direction: inbound
+  from: "Okafor, Sam DO (555-0190)"
+  received: "2026-06-01T09:12"
+  file: attestation-fax.tiff
+  subject: "signed re-credentialing attestation, 2026 cycle"
+  note: synthetic placeholder fax — see /DISCLAIMER.md
+---
+
+# Attestation fax sidecar — 2026 re-credentialing
+
+[Inbound fax received 2026-06-01 09:12](#attestation):
+[attestation-fax.tiff](attestation-fax.tiff), the signed attestation for the
+2026 cycle ([../recredentialing/2026-cycle.mdy](../recredentialing/2026-cycle.mdy)).

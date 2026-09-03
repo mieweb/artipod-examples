@@ -1,0 +1,17 @@
+---
+psv:
+  id: psv
+  target: "state license DO.51-99841"
+  source: { id: source, value: "State Board of Osteopathic Medicine — online verification portal" }
+  checkedBy: { id: checked-by, name: L. Grant, role: credentialing coordinator }
+  on: { id: on, value: 2025-05-18 }
+  result: { id: result, value: "ACTIVE, unrestricted, no disciplinary actions" }
+---
+
+# Primary-source verification — state license
+
+[Verified 2025-05-18](#on) against the
+[state board portal](#source) by [L. Grant](#checked-by):
+[ACTIVE, unrestricted, no disciplinary actions](#result). The license record
+in [../licenses/state-license.mdy](../licenses/state-license.mdy) is updated
+to `verified` in this same stage.

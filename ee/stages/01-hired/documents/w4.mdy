@@ -1,0 +1,16 @@
+---
+form:
+  id: w4-2024
+  kind: w4-shaped                          # fictional, simplified
+  employee: E-4471
+  filingStatus: { id: filing, value: single }
+  dependents: { id: dependents, value: 0 }
+  extraWithholding: { id: extra, value: 0 }
+  signed: { id: signed, value: 2024-03-04 }
+---
+
+# Withholding election (W-4-shaped, fictional)
+
+Filing status [single](#filing), [0 dependents](#dependents),
+[no extra withholding](#extra), [signed 2024-03-04](#signed). Original scans:
+[offer-letter.pdf](offer-letter.pdf), [badge-photo.jpg](badge-photo.jpg).

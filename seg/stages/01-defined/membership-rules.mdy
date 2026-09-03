@@ -1,0 +1,25 @@
+---
+membership:
+  id: membership
+  seg: SEG-WELD-01
+  rules:
+    - { id: rule-job, criterion: "job code", value: "WELD1, WELD2 (Welder I/II)" }
+    - { id: rule-loc, criterion: "location", value: "Fabrication Bays 1–3" }
+    - { id: rule-time, criterion: "time basis", value: "≥ 50% of shift hours on GMAW/FCAW tasks in the bay" }
+    - { id: rule-excl, criterion: "exclusion", value: "toolroom and inspection assignments (incl. temporary modified duty)" }
+  effective: 2025-11-05
+  roster:
+    - { id: m-4471, badge: E-4471, from: 2024-03-04, to: null, note: "excluded 2026-01-22 → 2026-02-04 (modified duty, see rule-excl)" }
+    - { id: m-4488, badge: E-4488, from: 2023-01-09, to: null }
+    - { id: m-4231, badge: E-4231, from: 2021-06-14, to: 2025-12-31, note: "transferred to maintenance" }
+---
+
+# Membership rules — SEG-WELD-01
+
+Membership is rule-based, not name-based: [job codes WELD1/WELD2](#rule-job)
+in [Bays 1–3](#rule-loc) with [≥ 50% shift time on welding tasks](#rule-time);
+[toolroom/inspection assignments are excluded](#rule-excl) — which is why
+[E-4471's modified-duty period is carved out](#m-4471) (the absence itself is
+the employer's case; only the *assignment* matters here). Roster history rides
+in the front matter with from/to dates, so "who belonged in February 2026" is
+a query, not an argument.

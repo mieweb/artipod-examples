@@ -1,0 +1,22 @@
+---
+resourceType: Bundle
+type: collection
+entry:
+  - id: xray-order
+    resource:
+      resourceType: ServiceRequest
+      code: { text: "XR hand left, PA + lateral" }
+      reasonCode: { text: "rule out fracture / radiopaque foreign body" }
+      authoredOn: "2026-01-14T15:20"
+  - id: cbc-order
+    resource:
+      resourceType: ServiceRequest
+      code: { text: "CBC with differential" }
+      authoredOn: "2026-01-14T15:20"
+---
+
+# Orders — 2026-01-14
+
+- [XR left hand, PA + lateral](#xray-order) → results under
+  [imaging/](imaging/), interpretation in the note.
+- [CBC w/ diff](#cbc-order) → [lab-report.pdf](lab-report.pdf).

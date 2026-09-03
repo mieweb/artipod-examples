@@ -1,0 +1,16 @@
+---
+artifact:
+  id: photos
+  kind: photo-set
+  subject: "pump placement + bay overview, 2026-02 campaign"
+  taken: 2026-02-09
+  files: [pump-e4471.jpg, pump-e4488.jpg, bay3-overview.jpg]
+  note: synthetic placeholder images — see /DISCLAIMER.md
+---
+
+# Pump-placement photos — 2026-02-09
+
+[Three photos](#photos): lapel pump placement on E-4471 and E-4488 at shift
+start, plus a Bay 3 overview showing the LEV arm position relative to the
+fixture table (the arm in this photo is the one flagged on 02-11 — compare
+[../field-notes.md](../field-notes.md)).

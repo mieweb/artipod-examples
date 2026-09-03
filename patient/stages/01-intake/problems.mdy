@@ -1,0 +1,17 @@
+---
+resourceType: Bundle
+type: collection
+entry:
+  - id: lac-hand
+    resource:
+      resourceType: Condition
+      code: { coding: [{ system: "http://snomed.info/sct", code: "284551006", display: "Laceration of hand" }] }
+      bodySite: { text: "left hand, dorsum" }
+      onsetDateTime: 2026-01-12
+      clinicalStatus: active
+---
+
+# Problem list
+
+- [Laceration of left hand (dorsum), onset 2026-01-12](#lac-hand) — active;
+  work-related (employer case ACME-2026-0007, held by the employer).

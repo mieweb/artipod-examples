@@ -1,0 +1,17 @@
+---
+artifact:
+  id: referral
+  kind: fax
+  direction: outbound
+  to: "Harborview Therapy Services"
+  sent: "2026-01-21T14:45"
+  file: referral-fax.tiff
+  subject: "hand therapy referral — grip strengthening, post-laceration"
+  note: synthetic placeholder fax — see /DISCLAIMER.md
+---
+
+# Referral fax — hand therapy, 2026-01-21
+
+Sidecar for [referral-fax.tiff](referral-fax.tiff):
+[outbound referral to Harborview Therapy Services, sent 14:45](#referral),
+grip strengthening post-laceration, 2×/week for 2 weeks.

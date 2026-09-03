@@ -1,0 +1,16 @@
+---
+license:
+  id: license
+  kind: state-osteopathic
+  number: "DO.51-99841"
+  state: XX
+  issued: 2019-07-01
+  expires: 2027-06-30
+  verification: { id: verification, status: verified, method: "primary source — state board portal", on: 2025-05-18 }
+---
+
+# State license DO.51-99841
+
+[**Verified** 2025-05-18 by primary source](#verification) — see
+[../verification/psv-state-board.mdy](../verification/psv-state-board.mdy).
+License [issued 2019-07-01, expires 2027-06-30](#license).

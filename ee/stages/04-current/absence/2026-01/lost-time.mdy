@@ -1,0 +1,23 @@
+---
+lostTime:
+  id: lost-time
+  employee: E-4471
+  caseRef: "example/case (ACME-2026-0007)"
+  absenceStart: { id: start, value: 2026-01-12 }
+  absenceEnd: { id: end, value: 2026-02-04 }
+  category: { id: category, value: "occupational injury — see employer case" }
+  payCode: { id: pay-code, value: OCC-INJ }
+  accounting:
+    id: accounting
+    lostDays: 8
+    modifiedDutyDays: 10
+    modifiedDutyRate: full            # modified duty paid at regular rate
+  status: { id: status, value: closed }
+---
+
+# Lost-time accounting — January 2026 (closed)
+
+Absence [2026-01-12 → 2026-02-04](#start): [8 lost workdays and 10
+modified-duty days, modified duty paid at the regular rate](#accounting).
+Status: [closed](#status) — employee returned to full duty 2026-02-05 per the
+employer case; payroll normal from period 2026-02A.

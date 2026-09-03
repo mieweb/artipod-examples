@@ -1,0 +1,16 @@
+---
+provider:
+  id: provider
+  name: { family: Okafor, given: Samuel, suffix: DO }
+  npi: "1234567893"                        # fictional — fails Luhn
+  specialty: { id: specialty, value: "Occupational Medicine" }
+  clinic: { id: clinic, value: "Harborview Occupational Health" }
+  status: { id: status, value: "application under review", since: 2025-05-01 }
+---
+
+# Sam Okafor, DO — NPI 1234567893
+
+[Occupational Medicine](#specialty) at
+[Harborview Occupational Health](#clinic). Credentialing status:
+[application under review since 2025-05-01](#status). Claimed credentials:
+[licenses/](licenses/); supporting scans: [documents/](documents/).

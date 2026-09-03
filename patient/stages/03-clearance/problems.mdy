@@ -1,0 +1,18 @@
+---
+resourceType: Bundle
+type: collection
+entry:
+  - id: lac-hand
+    resource:
+      resourceType: Condition
+      code: { coding: [{ system: "http://snomed.info/sct", code: "284551006", display: "Laceration of hand" }] }
+      bodySite: { text: "left hand, dorsum" }
+      onsetDateTime: 2026-01-12
+      abatementDateTime: 2026-02-04
+      clinicalStatus: resolved
+---
+
+# Problem list
+
+- [Laceration of left hand (dorsum)](#lac-hand) — **resolved 2026-02-04**;
+  onset 2026-01-12, work-related.

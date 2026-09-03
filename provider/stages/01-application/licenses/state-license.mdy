@@ -1,0 +1,17 @@
+---
+license:
+  id: license
+  kind: state-osteopathic
+  number: "DO.51-99841"                    # fictional
+  state: XX
+  issued: 2019-07-01
+  expires: 2027-06-30
+  verification: { id: verification, status: claimed, method: null, on: null }
+---
+
+# State license DO.51-99841
+
+[Claimed at application](#verification): state osteopathic license
+[issued 2019-07-01, expires 2027-06-30](#license). Scan:
+[../documents/license-scan.pdf](../documents/license-scan.pdf). Verification
+pending primary-source check with the state board.

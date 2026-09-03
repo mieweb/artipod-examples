@@ -1,0 +1,18 @@
+---
+case:
+  id: ACME-2026-0007
+  status: { id: status, value: closed, on: 2026-02-05 }
+  employee: { id: employee, name: Jordan Rivera, badge: E-4471, dept: Fabrication — Welding }
+  incident: { id: incident, date: 2026-01-12, time: "09:10", location: Bay 3, shear table }
+  workStatus: { id: work-status, value: full-duty, since: 2026-02-05 }
+  outcome: { id: outcome, value: "returned to full duty; 8 lost workdays, 10 modified-duty days" }
+  clinic: { id: clinic, name: Harborview Occupational Health, ref: "example/patient" }
+---
+
+# Absence case ACME-2026-0007
+
+Status: [closed 2026-02-05](#status). [Jordan Rivera](#employee) is
+[cleared for full duty](#work-status) per the 2026-02-04 clearance
+([closure/return-to-work.mdy](closure/return-to-work.mdy)). Outcome:
+[8 lost workdays, 10 modified-duty days](#outcome). Summary:
+[closure/case-summary.md](closure/case-summary.md).

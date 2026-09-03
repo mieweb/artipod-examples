@@ -1,0 +1,20 @@
+---
+resourceType: Encounter
+id: enc-0121
+class: occupational-health
+period: { start: "2026-01-21T14:00", end: "2026-01-21T14:50" }
+provider: { id: provider, display: "Sam Okafor, DO", npi: "1234567893" }
+assessment: { id: assessment, text: "wound healing well, edges approximated, no infection" }
+procedure: { id: procedure, ref: procedure.mdy }
+disposition: { id: disposition, text: "modified duty from 2026-01-22; no gripping with left hand, no vibration; clearance review 2026-02-04" }
+---
+
+# Encounter note — 2026-01-21 (follow-up)
+
+[Dr. Okafor](#provider):
+[wound healing well, edges approximated, no sign of infection](#assessment).
+[Sutures removed](#procedure) (see [procedure.mdy](procedure.mdy)). Hand
+therapy referral faxed ([referral-fax.tiff](referral-fax.tiff)) for grip
+strengthening. Disposition:
+[modified duty from 2026-01-22, restrictions as listed, clearance review 2026-02-04](#disposition)
+— work-status report sent to the employer via portal.

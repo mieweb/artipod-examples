@@ -1,0 +1,24 @@
+---
+results:
+  id: results
+  seg: SEG-WELD-01
+  campaign: 2026-02
+  lab: "AIH Laboratories (report: lab-report.pdf)"
+  method: "NIOSH 7300 / 7605; gravimetric fume"
+  samples:
+    - { id: s1, badge: E-4471, date: 2026-02-09, agent: Mn, twa: 0.058, unit: "mg/m3", duration: 452 }
+    - { id: s2, badge: E-4488, date: 2026-02-09, agent: Mn, twa: 0.041, unit: "mg/m3", duration: 448 }
+    - { id: s3, badge: E-4471, date: 2026-02-11, agent: Mn, twa: 0.089, unit: "mg/m3", duration: 460, note: "stainless day, LEV arm mispositioned AM" }
+    - { id: s4, badge: E-4488, date: 2026-02-11, agent: "Cr(VI)", twa: 0.0021, unit: "mg/m3", duration: 455 }
+    - { id: s5, badge: E-4471, date: 2026-02-12, agent: "Cr(VI)", twa: 0.0016, unit: "mg/m3", duration: 450 }
+    - { id: s6, badge: E-4488, date: 2026-02-12, agent: fume, twa: 2.4, unit: "mg/m3", duration: 458 }
+  blanks: { id: blanks, result: "all field blanks below detection" }
+---
+
+# Sampling results — 2026-02 campaign
+
+Six personal samples over four shifts (transcribed from
+[lab-report.pdf](lab-report.pdf); [field blanks clean](#blanks)). Highest Mn:
+[0.089 mg/m³ on the stainless day with the LEV arm mispositioned](#s3) — see
+[field-notes.md](field-notes.md) for the observation that explains it. Cr(VI)
+both days below 0.0025 mg/m³ ([s4](#s4), [s5](#s5)).

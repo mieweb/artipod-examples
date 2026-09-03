@@ -1,0 +1,17 @@
+---
+resourceType: Bundle
+type: collection
+entry:
+  - id: cephalexin
+    resource:
+      resourceType: MedicationRequest
+      medication: { text: "cephalexin 500 mg PO QID x 5 days" }
+      authoredOn: 2026-01-14
+      requester: { display: "Sam Okafor, DO" }
+      status: completed
+---
+
+# Medications
+
+- [Cephalexin 500 mg QID x 5 days](#cephalexin) — **completed** 2026-01-19,
+  course finished without issue.

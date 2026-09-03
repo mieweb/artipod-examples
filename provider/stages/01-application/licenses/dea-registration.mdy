@@ -1,0 +1,14 @@
+---
+registration:
+  id: dea
+  kind: dea-registration
+  number: "FO5199841"                      # fictional shape
+  schedules: "II-V"
+  expires: 2027-03-31
+  verification: { id: verification, status: claimed, method: null, on: null }
+---
+
+# DEA registration FO5199841
+
+[Claimed at application](#verification): schedules II–V,
+[expires 2027-03-31](#dea). Verification pending.

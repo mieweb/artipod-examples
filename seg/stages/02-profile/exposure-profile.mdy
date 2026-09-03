@@ -1,0 +1,23 @@
+---
+profile:
+  id: profile
+  seg: SEG-WELD-01
+  version: 1
+  basis: { id: basis, value: "qualitative — professional judgment + analogous operations; no site sampling yet" }
+  date: 2025-12-01
+  judgments:
+    - { id: j-mn, agent: "manganese", band: "moderate (25–75% of the exposure limit)", confidence: low }
+    - { id: j-cr6, agent: "hexavalent chromium", band: "uncertain — stainless fraction varies by contract", confidence: low }
+    - { id: j-fume, agent: "total welding fume", band: "moderate", confidence: medium }
+  plan: { id: plan, value: "personal sampling campaign scheduled 2026-02 (full-shift, worst-case contracts)" }
+---
+
+# Exposure profile — v1 (qualitative)
+
+What we **believe** the group's exposure distribution is, and how much that
+belief is worth: [qualitative, judged from analogous operations, no site
+sampling yet](#basis). [Manganese: moderate, low confidence](#j-mn);
+[Cr(VI): uncertain](#j-cr6); [total fume: moderate](#j-fume). Because
+confidence is low, a [personal sampling campaign is scheduled for
+2026-02](#plan) — when its results land in `evidence/`, this file gets
+revised, and the pod's history will show the belief *before* the data.

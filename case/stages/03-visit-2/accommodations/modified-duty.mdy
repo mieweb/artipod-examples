@@ -1,0 +1,22 @@
+---
+plan:
+  kind: modified-duty
+  case: ACME-2026-0007
+  employee: { id: employee, name: Jordan Rivera, badge: E-4471 }
+  effective: { id: effective, value: 2026-01-22 }
+  through: { id: through, value: 2026-02-04 }
+  duties: { id: duties, value: "fixture inspection, weld-log QA, toolroom inventory" }
+  excluded: { id: excluded, value: "welding, shear/brake operation, grinding" }
+  supervisor: { id: supervisor, name: M. Delgado }
+  hours: { id: hours, value: "regular shift, no overtime" }
+---
+
+# Modified-duty assignment
+
+[Jordan Rivera](#employee) is assigned
+[fixture inspection, weld-log QA, and toolroom inventory](#duties)
+[from 2026-01-22](#effective) [through the 2026-02-04 review](#through),
+[regular shift, no overtime](#hours). Excluded:
+[welding, shear/brake operation, grinding](#excluded). Supervisor:
+[M. Delgado](#supervisor), who confirms the duties fit the provider's
+restrictions as written — the case never re-interprets them.

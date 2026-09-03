@@ -1,0 +1,17 @@
+---
+resourceType: Patient
+id: patient
+identifier:
+  - { system: "urn:example:harborview:mrn", value: HOH-88231 }
+name: [{ family: Rivera, given: [Jordan] }]
+birthDate: 1993-06-14
+telecom: [{ system: phone, value: "555-0142" }]
+occupation: { id: occupation, employer: Acme Fabrication, job: Welder II }
+lastEncounter: { id: last-encounter, value: 2026-01-21 }
+---
+
+# Jordan Rivera — MRN HOH-88231
+
+[Welder II at Acme Fabrication](#occupation), DOB 1993-06-14. Last encounter:
+[2026-01-21](#last-encounter) (suture removal, wound healing well). Active
+problems: see [problems.mdy](problems.mdy).

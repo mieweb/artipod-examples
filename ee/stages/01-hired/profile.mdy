@@ -1,0 +1,21 @@
+---
+employee:
+  id: employee
+  badge: E-4471
+  name: { family: Rivera, given: Jordan }
+  dob: 1993-06-14
+  ssn: "900-22-4471"                      # 900-range: never issued, fictional
+  address: { id: address, street: "418 Foundry Row Apt 2B", city: Mill City, state: XX, zip: "00000" }
+  phone: { id: phone, value: "555-0142" }
+  emergencyContact: { id: emergency, name: Casey Rivera, relation: sibling, phone: "555-0177" }
+  hired: { id: hired, value: 2024-03-04 }
+  status: { id: status, value: active }
+---
+
+# Employee profile — E-4471
+
+[Jordan Rivera](#employee), [hired 2024-03-04](#hired), [active](#status).
+Address: [418 Foundry Row Apt 2B](#address); phone [555-0142](#phone);
+emergency contact [Casey Rivera (sibling)](#emergency). Position and wage
+history: [positions/](positions/), [wages/wage-history.mdy](wages/wage-history.mdy).
+Hiring documents: [documents/](documents/).

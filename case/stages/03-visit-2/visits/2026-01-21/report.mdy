@@ -1,0 +1,20 @@
+---
+report:
+  kind: provider-work-status
+  case: ACME-2026-0007
+  visitDate: { id: visit-date, value: 2026-01-21 }
+  provider: { id: provider, name: "Sam Okafor, DO", clinic: Harborview Occupational Health }
+  workStatus: { id: work-status, value: modified-duty, from: 2026-01-22 }
+  restrictions: { id: restrictions, value: "no gripping tools with left hand; no vibration exposure" }
+  nextAppointment: { id: next-appt, value: 2026-02-04 }
+  received: { id: received, value: "2026-01-21T15:20", via: portal }
+---
+
+# Provider report — visit of 2026-01-21
+
+- Work status: [modified duty, effective 2026-01-22](#work-status)
+- Restrictions: [no gripping tools with the left hand; no vibration](#restrictions)
+- Next appointment: [2026-02-04](#next-appt) (clearance review)
+
+Received [2026-01-21 15:20 via portal](#received) from
+[Dr. Sam Okafor](#provider). Clinical detail: clinic chart, visit 2026-01-21.

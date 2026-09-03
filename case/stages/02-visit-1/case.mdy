@@ -1,0 +1,18 @@
+---
+case:
+  id: ACME-2026-0007
+  status: { id: status, value: open }
+  employee: { id: employee, name: Jordan Rivera, badge: E-4471, dept: Fabrication — Welding }
+  incident: { id: incident, date: 2026-01-12, time: "09:10", location: Bay 3, shear table }
+  workStatus: { id: work-status, value: off-work, since: 2026-01-12, restrictions: "no use of left hand" }
+  clinic: { id: clinic, name: Harborview Occupational Health, ref: "example/patient" }
+  nextReview: { id: next-review, value: 2026-01-21 }
+---
+
+# Absence case ACME-2026-0007
+
+Status: [open](#status). [Jordan Rivera, E-4471](#employee) remains
+[off work with no use of the left hand](#work-status) per the provider report
+received after the first visit
+([visits/2026-01-14/report.mdy](visits/2026-01-14/report.mdy)). Next review at
+the [follow-up visit 2026-01-21](#next-review).

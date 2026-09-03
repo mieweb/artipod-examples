@@ -1,0 +1,21 @@
+---
+recred:
+  id: recred
+  cycle: 2026
+  opened: { id: opened, value: 2026-06-01 }
+  attestation: { id: attestation, received: 2026-06-01, via: fax, file: ../documents/attestation-fax.tiff }
+  checks:
+    - { id: chk-license, item: "state license", result: "ACTIVE, verified 2026-06-01" }
+    - { id: chk-npdb, item: "practitioner data bank query", result: "no reports" }
+    - { id: chk-claims, item: "malpractice claims history", result: "none" }
+  outcome: { id: outcome, value: "re-credentialed through 2028-06-30" }
+---
+
+# Re-credentialing — 2026 cycle
+
+[Opened 2026-06-01](#opened) with the provider's
+[signed attestation received by fax](#attestation)
+([../documents/attestation-fax.tiff](../documents/attestation-fax.tiff)).
+Checks: [license ACTIVE](#chk-license), [data-bank query clean](#chk-npdb),
+[no claims](#chk-claims). Outcome:
+[re-credentialed through 2028-06-30](#outcome).

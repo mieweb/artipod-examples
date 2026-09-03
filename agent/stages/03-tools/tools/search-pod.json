@@ -1,0 +1,13 @@
+{
+  "$comment": "ILLUSTRATIVE tool schema — the capability dialect is owned by ozwellai-api; this pod tracks it.",
+  "name": "search_pod",
+  "capability": "pod.search",
+  "description": "Find files in the opened pod by glob and/or content substring.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "glob": { "type": "string", "description": "e.g. visits/**/*.mdy" },
+      "contains": { "type": "string", "description": "optional content filter" }
+    }
+  }
+}

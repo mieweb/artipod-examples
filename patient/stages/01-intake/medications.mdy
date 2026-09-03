@@ -1,0 +1,17 @@
+---
+resourceType: Bundle
+type: collection
+entry:
+  - id: cephalexin
+    resource:
+      resourceType: MedicationRequest
+      medication: { text: "cephalexin 500 mg PO QID x 5 days" }
+      authoredOn: 2026-01-14
+      requester: { display: "Sam Okafor, DO" }
+      status: active
+---
+
+# Medications
+
+- [Cephalexin 500 mg four times daily, 5 days](#cephalexin) — prophylaxis,
+  started 2026-01-14 (Dr. Okafor).

@@ -1,0 +1,28 @@
+---
+profile:
+  id: profile
+  seg: SEG-WELD-01
+  version: 2
+  basis: { id: basis, value: "quantitative — 2026-02 personal sampling campaign (evidence/2026-02/), n=6 over 4 shifts, worst-case contract mix" }
+  date: 2026-03-02
+  supersedes: { version: 1, note: "qualitative judgment — see this file at tag profile-v1" }
+  statistics:
+    - { id: st-mn, agent: "manganese", gm: 0.058, gsd: 1.55, p95: 0.118, unit: "mg/m3", judgment: "below the action threshold at the 95th percentile; the LEV-mispositioned sample is the observed upper tail" }
+    - { id: st-cr6, agent: "hexavalent chromium", gm: 0.0018, gsd: 1.25, p95: 0.0026, unit: "mg/m3", judgment: "well-controlled on the sampled stainless mix" }
+    - { id: st-fume, agent: "total welding fume", gm: 2.4, gsd: null, p95: null, unit: "mg/m3", judgment: "single sample — carry v1's moderate band, resample next stainless contract" }
+  controls: { id: controls, value: "Bay 3 LEV arm repositioning added to job setup checklist (from field-notes 02-11); no respiratory protection change" }
+  reassessment: { id: reassessment, value: "annual, or on process/contract-mix change; fume resample at next stainless contract" }
+---
+
+# Exposure profile — v2 (revised on evidence)
+
+The belief, revised: now [grounded in the 2026-02 campaign](#basis) instead of
+judgment. [Mn: GM 0.058, GSD 1.55, 95th percentile 0.118 mg/m³](#st-mn) —
+v1's "moderate" band was right, and the upper tail has a *name* now (the
+mispositioned LEV arm, corrected via [checklist change](#controls)).
+[Cr(VI): well-controlled](#st-cr6). [Total fume: still provisional](#st-fume).
+[Reassessment schedule](#reassessment) set.
+
+**Compare this file at tags `profile-v1` and `profile-v2`** — same path, same
+questions, different epistemic standing; `evidence/2026-02/` is the reason,
+and the pod's layer history proves the order.

@@ -1,0 +1,28 @@
+---
+resourceType: Encounter
+id: enc-0114
+class: occupational-health
+period: { start: "2026-01-14T15:10", end: "2026-01-14T16:05" }
+provider: { id: provider, display: "Sam Okafor, DO", npi: "1234567893" }   # fictional NPI (fails Luhn)
+reason: { id: reason, text: "work-related laceration, left hand" }
+assessment: { id: assessment, text: "4 cm dorsal laceration, no tendon involvement, no radiopaque foreign body" }
+procedure: { id: procedure, text: "irrigation + simple repair, 6 sutures (5-0 nylon)" }
+disposition: { id: disposition, text: "off work; no use of left hand; follow-up 2026-01-21" }
+---
+
+# Encounter note — 2026-01-14 (intake)
+
+Seen by [Dr. Sam Okafor](#provider) for a
+[work-related laceration of the left hand](#reason) sustained 2026-01-12 at
+the employer's shear table (per the patient; the employer's incident record is
+their own). Exam and imaging
+([imaging/hand-xray-pa.jpg](imaging/hand-xray-pa.jpg),
+[hand-xray-lat.jpg](imaging/hand-xray-lat.jpg) — see
+[hand-xray-pa.mdy](imaging/hand-xray-pa.mdy)):
+[4 cm dorsal laceration, no tendon involvement, no radiopaque foreign body](#assessment).
+
+[Irrigated and repaired with 6 sutures](#procedure); cephalexin started
+(see [../../medications.mdy](../../medications.mdy)); labs at
+[../lab-report.pdf](lab-report.pdf). Disposition:
+[off work, no use of left hand, follow-up 2026-01-21](#disposition) —
+work-status report faxed to the employer.
