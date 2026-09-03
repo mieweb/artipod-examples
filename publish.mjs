@@ -69,7 +69,14 @@ for (const m of index.manifests) {
   const manifestBytes = blob(m.digest);
   const manifest = JSON.parse(manifestBytes.toString('utf8'));
   let moved = 0;
-  for (const desc of [manifest.config, ...manifest.layers]) {
+  // The reachable set includes annotation-referenced layer-index artifacts —
+  // index-level pulls and pull-then-push resync both walk them.
+  const descriptors = [manifest.config, ...manifest.layers];
+  const extras = manifest.layers
+    .map((l) => l.annotations?.['org.artipod.layer-index'])
+    .filter((d) => /^sha256:[0-9a-f]{64}$/.test(d ?? ''))
+    .map((digest) => ({ digest }));
+  for (const desc of [...descriptors, ...extras]) {
     if (await ensureBlob(repo, desc.digest, blob(desc.digest))) moved++;
   }
   const put = await api(repo, `manifests/${tag}`, {
